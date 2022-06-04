@@ -1,13 +1,13 @@
 #-----------------------------------------------------------
-# Vivado v2018.2 (64-bit)
-# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
-# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Wed May 11 04:35:59 2022
-# Process ID: 17124
-# Current directory: C:/Users/User/Desktop/Verilog_Labs/VerilogLab2/Lab2.runs/synth_1
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri May 27 12:34:53 2022
+# Process ID: 18988
+# Current directory: C:/Users/Elite/Desktop/1/VerilogLab2/Lab2.runs/synth_1
 # Command line: vivado.exe -log func.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source func.tcl
-# Log file: C:/Users/User/Desktop/Verilog_Labs/VerilogLab2/Lab2.runs/synth_1/func.vds
-# Journal file: C:/Users/User/Desktop/Verilog_Labs/VerilogLab2/Lab2.runs/synth_1\vivado.jou
+# Log file: C:/Users/Elite/Desktop/1/VerilogLab2/Lab2.runs/synth_1/func.vds
+# Journal file: C:/Users/Elite/Desktop/1/VerilogLab2/Lab2.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source func.tcl -notrace
 Command: synth_design -top func -part xc7vx485tffg1157-1
@@ -20,4 +20,4 @@ synth_design failed
 ERROR: [Common 17-345] A valid license was not found for feature 'Synthesis' and/or device 'xc7vx485t'. Please run the Vivado License Manager for assistance in determining
 which features and devices are licensed for your system.
 Resolution: Check the status of your licenses in the Vivado License Manager. For debug help search Xilinx Support for "Licensing FAQ". If you are using a license server, verify that the license server is up and running a version of the xilinx daemon that is compatible with the version of Xilinx software that you are using. Please note that Vivado 2017.3 and later requires upgrading your license server tools to the Flex 11.14.1 tools. Please confirm with your license admin that the correct version of the license server tools are installed.
-INFO: [Common 17-206] Exiting Vivado at Wed May 11 04:36:04 2022...
+INFO: [Common 17-206] Exiting Vivado at Fri May 27 12:35:06 2022...

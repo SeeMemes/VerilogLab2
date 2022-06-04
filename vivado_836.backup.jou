@@ -1,0 +1,121 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Jun  1 14:06:34 2022
+# Process ID: 836
+# Current directory: C:/Users/Elite/Desktop/1/VerilogLab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11720 C:\Users\Elite\Desktop\1\VerilogLab2\Lab2.xpr
+# Log file: C:/Users/Elite/Desktop/1/VerilogLab2/vivado.log
+# Journal file: C:/Users/Elite/Desktop/1/VerilogLab2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Elite/Desktop/1/VerilogLab2/Lab2.xpr
+update_compile_order -fileset sources_1
+save_project_as VerilogLab3 C:/Users/Elite/Desktop/lab3_verilog/VerilogLab3 -force
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+reset_run synth_1
+launch_simulation
+source func_test.tcl
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list {a_b[7]} {a_b[6]} {a_b[5]} {a_b[4]} {a_b[3]} {a_b[2]} {a_b[1]} {a_b[0]}]]
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+close_design
+close_sim
+open_run synth_1 -name synth_1
+create_run synth_lab3 -flow {Vivado Synthesis 2018} -strategy {Vivado Synthesis Defaults} -report_strategy {Vivado Synthesis Default Reports}
+current_run [get_runs synth_lab3]
+set_property part xc7a100tcsg324-1 [current_project]
+update_ip_catalog
+update_ip_catalog
+update_ip_catalog
+close_design
+update_ip_catalog
+launch_runs synth_lab3 -jobs 2
+wait_on_run synth_lab3
+delete_runs "synth_1"
+open_run synth_lab3 -name synth_lab3
+set_property IOSTANDARD LVCMOS33 [get_ports [list {a_b[7]} {a_b[6]} {a_b[5]} {a_b[4]} {a_b[3]} {a_b[2]} {a_b[1]} {a_b[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {a_b[7]} {a_b[6]} {a_b[5]} {a_b[4]} {a_b[3]} {a_b[2]} {a_b[1]} {a_b[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {b_b[7]} {b_b[6]} {b_b[5]} {b_b[4]} {b_b[3]} {b_b[2]} {b_b[1]} {b_b[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {m_res[23]} {m_res[22]} {m_res[21]} {m_res[20]} {m_res[19]} {m_res[18]} {m_res[17]} {m_res[16]} {m_res[15]} {m_res[14]} {m_res[13]} {m_res[12]} {m_res[11]} {m_res[10]} {m_res[9]} {m_res[8]} {m_res[7]} {m_res[6]} {m_res[5]} {m_res[4]} {m_res[3]} {m_res[2]} {m_res[1]} {m_res[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {m_state[2]} {m_state[1]} {m_state[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {m_y_bo[23]} {m_y_bo[22]} {m_y_bo[21]} {m_y_bo[20]} {m_y_bo[19]} {m_y_bo[18]} {m_y_bo[17]} {m_y_bo[16]} {m_y_bo[15]} {m_y_bo[14]} {m_y_bo[13]} {m_y_bo[12]} {m_y_bo[11]} {m_y_bo[10]} {m_y_bo[9]} {m_y_bo[8]} {m_y_bo[7]} {m_y_bo[6]} {m_y_bo[5]} {m_y_bo[4]} {m_y_bo[3]} {m_y_bo[2]} {m_y_bo[1]} {m_y_bo[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {result_bo[24]} {result_bo[23]} {result_bo[22]} {result_bo[21]} {result_bo[20]} {result_bo[19]} {result_bo[18]} {result_bo[17]} {result_bo[16]} {result_bo[15]} {result_bo[14]} {result_bo[13]} {result_bo[12]} {result_bo[11]} {result_bo[10]} {result_bo[9]} {result_bo[8]} {result_bo[7]} {result_bo[6]} {result_bo[5]} {result_bo[4]} {result_bo[3]} {result_bo[2]} {result_bo[1]} {result_bo[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {s_res[7]} {s_res[6]} {s_res[5]} {s_res[4]} {s_res[3]} {s_res[2]} {s_res[1]} {s_res[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {result_bo[24]} {result_bo[23]} {result_bo[22]} {result_bo[21]} {result_bo[20]} {result_bo[19]} {result_bo[18]} {result_bo[17]} {result_bo[16]} {result_bo[15]} {result_bo[14]} {result_bo[13]} {result_bo[12]} {result_bo[11]} {result_bo[10]} {result_bo[9]} {result_bo[8]} {result_bo[7]} {result_bo[6]} {result_bo[5]} {result_bo[4]} {result_bo[3]} {result_bo[2]} {result_bo[1]} {result_bo[0]}]]
+file mkdir C:/Users/Elite/Desktop/lab3_verilog/VerilogLab3/VerilogLab3.srcs/constrs_1/new
+close [ open C:/Users/Elite/Desktop/lab3_verilog/VerilogLab3/VerilogLab3.srcs/constrs_1/new/lab3_constraint.xdc w ]
+add_files -fileset constrs_1 C:/Users/Elite/Desktop/lab3_verilog/VerilogLab3/VerilogLab3.srcs/constrs_1/new/lab3_constraint.xdc
+set_property target_constrs_file C:/Users/Elite/Desktop/lab3_verilog/VerilogLab3/VerilogLab3.srcs/constrs_1/new/lab3_constraint.xdc [current_fileset -constrset]
+save_constraints -force
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list busy]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list m_end_step]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list rst]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list s_end_step]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list start]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list rst]]
+save_constraints
+set_property package_pin "" [get_ports [list  busy]]
+set_property package_pin "" [get_ports [list  m_end_step]]
+set_property package_pin "" [get_ports [list  clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list busy]]
+set_property package_pin "" [get_ports [list  busy]]
+place_ports rst R12
+place_ports clk E3
+place_ports rst M17
+place_ports busy R12
+place_ports start P17
+place_ports {a_b[7]} J15
+place_ports {a_b[6]} L16
+place_ports {a_b[5]} M13
+place_ports {a_b[4]} R15
+set_property package_pin "" [get_ports [list  {a_b[0]}]]
+place_ports {a_b[3]} R17
+place_ports {a_b[2]} T18
+place_ports {a_b[1]} U18
+place_ports {a_b[0]} R13
+set_property package_pin "" [get_ports [list  {b_b[7]}]]
+place_ports {b_b[7]} T8
+place_ports {b_b[6]} U8
+place_ports {b_b[5]} R16
+place_ports {b_b[4]} T13
+place_ports {b_b[3]} H6
+place_ports {b_b[2]} U12
+place_ports {b_b[1]} U11
+place_ports {b_b[0]} V10
+save_constraints
+reset_run synth_lab3
+launch_runs synth_lab3 -jobs 2
+wait_on_run synth_lab3
+reset_run synth_lab3
+launch_runs synth_lab3 -jobs 2
+wait_on_run synth_lab3
+close_design
+open_run synth_lab3 -name synth_lab3
+launch_simulation
+close_design
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+update_compile_order -fileset sources_1
+launch_simulation

@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri May 27 12:33:54 2022
+# Process ID: 10992
+# Current directory: C:/Users/Elite/Desktop/1/VerilogLab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6496 C:\Users\Elite\Desktop\1\VerilogLab2\Lab2.xpr
+# Log file: C:/Users/Elite/Desktop/1/VerilogLab2/vivado.log
+# Journal file: C:/Users/Elite/Desktop/1/VerilogLab2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Elite/Desktop/1/VerilogLab2/Lab2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:18 . Memory (MB): peak = 848.188 ; gain = 213.078
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri May 27 12:34:48 2022] Launched synth_1...
+Run output will be captured here: C:/Users/Elite/Desktop/1/VerilogLab2/Lab2.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun  1 13:33:15 2022...

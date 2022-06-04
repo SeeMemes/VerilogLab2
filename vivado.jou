@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jun  4 16:01:47 2022
+# Process ID: 17752
+# Current directory: C:/Users/Elite/Desktop/1/VerilogLab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11960 C:\Users\Elite\Desktop\1\VerilogLab2\Lab2.xpr
+# Log file: C:/Users/Elite/Desktop/1/VerilogLab2/vivado.log
+# Journal file: C:/Users/Elite/Desktop/1/VerilogLab2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Elite/Desktop/1/VerilogLab2/Lab2.xpr
+update_compile_order -fileset sources_1
+save_project_as VerilogLab2 C:/Users/Elite/Desktop/VerilogLab2 -force
+open_project C:/Users/Elite/Desktop/1/VerilogLab3/VerilogLab3.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/Elite/Desktop/1/VerilogLab3/VerilogLab3.srcs/sources_1/new/adder.v] -no_script -reset -force -quiet
+remove_files  C:/Users/Elite/Desktop/1/VerilogLab3/VerilogLab3.srcs/sources_1/new/adder.v
+file delete -force C:/Users/Elite/Desktop/1/VerilogLab3/VerilogLab3.srcs/sources_1/new/adder.v
+export_ip_user_files -of_objects  [get_files C:/Users/Elite/Desktop/1/VerilogLab3/VerilogLab3.srcs/sim_1/new/adder_test.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/Elite/Desktop/1/VerilogLab3/VerilogLab3.srcs/sim_1/new/adder_test.v
+file delete -force C:/Users/Elite/Desktop/1/VerilogLab3/VerilogLab3.srcs/sim_1/new/adder_test.v
+launch_simulation
+launch_simulation
+update_ip_catalog
+launch_simulation
+launch_simulation
+source func_test.tcl
+current_project VerilogLab2
+export_ip_user_files -of_objects  [get_files C:/Users/Elite/Desktop/VerilogLab2/VerilogLab2.srcs/sources_1/new/adder.v] -no_script -reset -force -quiet
+remove_files  C:/Users/Elite/Desktop/VerilogLab2/VerilogLab2.srcs/sources_1/new/adder.v
+file delete -force C:/Users/Elite/Desktop/VerilogLab2/VerilogLab2.srcs/sources_1/new/adder.v
+export_ip_user_files -of_objects  [get_files C:/Users/Elite/Desktop/VerilogLab2/VerilogLab2.srcs/sim_1/new/adder_test.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/Elite/Desktop/VerilogLab2/VerilogLab2.srcs/sim_1/new/adder_test.v
+file delete -force C:/Users/Elite/Desktop/VerilogLab2/VerilogLab2.srcs/sim_1/new/adder_test.v
+launch_simulation
+current_project VerilogLab3
+current_project VerilogLab2
+current_project VerilogLab3
+current_project VerilogLab2
+current_project VerilogLab3
+launch_simulation
+source func_test.tcl
+close_sim
+current_project VerilogLab2
+launch_simulation
+source func_test.tcl
+close_sim
+close_project
